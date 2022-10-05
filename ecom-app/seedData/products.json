@@ -1,0 +1,583 @@
+[
+  {
+    "id": "fe010ea9-a290-49fb-87cb-d9fc079ae5be",
+    "title": "Firewall Rain Jacket",
+    "brand": "RAB",
+    "description": "Lightweight rain jacket made for intrepid hikers",
+    "colour": "red",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#jackets#fe010ea9-a290-49fb-87cb-d9fc079ae5be"
+  },
+  {
+    "id": "1a360925-ba25-452d-b9a9-680c15ebe8fa",
+    "title": "Quest Insulated Jacket",
+    "brand": "The North Face",
+    "description": "An insulated jacket which works as well in the mountains as on your commute to work",
+    "colour": "Green",
+    "sizesAvailable": [
+      null,
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#jackets#1a360925-ba25-452d-b9a9-680c15ebe8fa"
+  },
+  {
+    "id": "e7389895-8199-438f-950a-bc13f17cf676",
+    "title": "Escape Softshell Jacket",
+    "brand": "Vaude",
+    "description": "Lightweight rain jacket made for intrepid hikers",
+    "colour": "red",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#jackets#e7389895-8199-438f-950a-bc13f17cf676"
+  },
+  {
+    "id": "4618b7c9-642c-4493-ad99-9cdcd3069924",
+    "title": "Authentic trecking trousers",
+    "brand": "Lundhags",
+    "description": "Lightweight trecking trousers",
+    "colour": "Green",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#trousers#4618b7c9-642c-4493-ad99-9cdcd3069924"
+  },
+  {
+    "id": "a0266a46-cd54-40c1-a433-2d6a9b4f3a57",
+    "title": "Slim Fit Jeans",
+    "brand": "Mammoth",
+    "description": "Slim Fit Jeans",
+    "colour": "Blue Demin",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#trousers#a0266a46-cd54-40c1-a433-2d6a9b4f3a57"
+  },
+  {
+    "id": "d70f853a-1436-4353-b007-86a90f46d5ed",
+    "title": "Climbing Trousers",
+    "brand": "Mammut",
+    "description": "Elasticated trousers for climbing",
+    "colour": "Grey",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#trousers#d70f853a-1436-4353-b007-86a90f46d5ed"
+  },
+  {
+    "id": "4af34447-f548-42b8-bf04-ab2f4c4d388f",
+    "title": "Ultimate board shorts",
+    "brand": "Ultimate Shorts",
+    "description": "The best and brightest shorts you can imagine",
+    "colour": "All",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#trousers#4af34447-f548-42b8-bf04-ab2f4c4d388f"
+  },
+  {
+    "id": "3644405e-920c-44e4-b32c-0db866de0dce",
+    "title": "Base layer",
+    "brand": "Stoic",
+    "description": "Perfect base layer for all of your adventuring",
+    "colour": "Blue",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#shirts#3644405e-920c-44e4-b32c-0db866de0dce"
+  },
+  {
+    "id": "bd89e67e-e79c-4e15-91c0-36453806611e",
+    "title": "Merino Long Sleve",
+    "brand": "Stoic",
+    "description": "Long sleve marino wool shirt",
+    "colour": "Purple",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      null,
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#shirts#bd89e67e-e79c-4e15-91c0-36453806611e"
+  },
+  {
+    "id": "24599e22-ed94-4f52-b980-387b29a3d211",
+    "title": "Renegade GTX mid",
+    "brand": "LOWA",
+    "description": "Goretex Mid shoe",
+    "colour": "Grey/Green",
+    "sizesAvailable": [
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" },
+      { "sizeCode": 42, "displayValue": "42" },
+      { "sizeCode": 43, "displayValue": "43" },
+      { "sizeCode": 44, "displayValue": "44" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#shoes#24599e22-ed94-4f52-b980-387b29a3d211"
+  },
+  {
+    "id": "fe75816b-43d1-4a83-be81-9ebcecaeb990",
+    "title": "Predict Hike GTX mid",
+    "brand": "Solomon",
+    "description": "Goretex Mid shoe",
+    "colour": "Light Blue",
+    "sizesAvailable": [
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" },
+      { "sizeCode": 42, "displayValue": "42" },
+      { "sizeCode": 43, "displayValue": "43" },
+      { "sizeCode": 44, "displayValue": "44" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#shoes#fe75816b-43d1-4a83-be81-9ebcecaeb990"
+  },
+  {
+    "id": "5be7c38a-979c-4b98-a515-8a8553d30920",
+    "title": "Olympus 5 Hike",
+    "brand": "Altra",
+    "description": "Goretex Mid boot",
+    "colour": "Orange/Black",
+    "sizesAvailable": [
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" },
+      { "sizeCode": 42, "displayValue": "42" },
+      { "sizeCode": 43, "displayValue": "43" },
+      { "sizeCode": 44, "displayValue": "44" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#shoes#5be7c38a-979c-4b98-a515-8a8553d30920"
+  },
+  {
+    "id": "cd5e09f9-035f-4662-82b6-1b6546c646e6",
+    "title": "Anatomica Boxers",
+    "brand": "Icebreaker",
+    "description": "Merino wool boxer shorts",
+    "colour": "Black",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#underwear#cd5e09f9-035f-4662-82b6-1b6546c646e6"
+  },
+  {
+    "id": "d64c019a-cce5-4a09-bf3f-65f0971ea13b",
+    "title": "Long John 400",
+    "brand": "Woolpower",
+    "description": "Merino wool long johns",
+    "colour": "Black",
+    "sizesAvailable": [
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "mens#underwear#d64c019a-cce5-4a09-bf3f-65f0971ea13b"
+  },
+  {
+    "id": "7b91d163-1f9b-4e34-91e6-a86ee588b28e",
+    "title": "Firewall Rain Jacket",
+    "brand": "RAB",
+    "description": "Lightweight rain jacket made for intrepid hikers",
+    "colour": "red",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#jackets#7b91d163-1f9b-4e34-91e6-a86ee588b28e"
+  },
+  {
+    "id": "2b43ef1d-2435-45e5-a141-8973c0734755",
+    "title": "Quest Insulated Jacket",
+    "brand": "The North Face",
+    "description": "An insulated jacket which works as well in the mountains as on your commute to work",
+    "colour": "Green",
+    "sizesAvailable": [
+      null,
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#jackets#2b43ef1d-2435-45e5-a141-8973c0734755"
+  },
+  {
+    "id": "e1a521a9-4bc7-4942-90e9-263d3d5ca674",
+    "title": "Escape Softshell Jacket",
+    "brand": "Vaude",
+    "description": "Lightweight rain jacket made for intrepid hikers",
+    "colour": "red",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#jackets#e1a521a9-4bc7-4942-90e9-263d3d5ca674"
+  },
+  {
+    "id": "036696d9-68a5-49b0-bb6f-d675da235ec7",
+    "title": "Authentic trecking trousers",
+    "brand": "Lundhags",
+    "description": "Lightweight trecking trousers",
+    "colour": "Green",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#trousers#036696d9-68a5-49b0-bb6f-d675da235ec7"
+  },
+  {
+    "id": "23cb6b85-f55d-4ce0-a4cd-7e737c4d0ace",
+    "title": "Slim Fit Jeans",
+    "brand": "Mammoth",
+    "description": "Slim Fit Jeans",
+    "colour": "Blue Demin",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#trousers#23cb6b85-f55d-4ce0-a4cd-7e737c4d0ace"
+  },
+  {
+    "id": "8ee6fbb1-8a4e-4af3-949e-5de0f4ecfca8",
+    "title": "Climbing Trousers",
+    "brand": "Mammut",
+    "description": "Elasticated trousers for climbing",
+    "colour": "Grey",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#trousers#8ee6fbb1-8a4e-4af3-949e-5de0f4ecfca8"
+  },
+  {
+    "id": "14c51f89-e29c-46fd-bd8a-c1322e438ee5",
+    "title": "Ultimate board shorts",
+    "brand": "Ultimate Shorts",
+    "description": "The best and brightest shorts you can imagine",
+    "colour": "All",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#trousers#14c51f89-e29c-46fd-bd8a-c1322e438ee5"
+  },
+  {
+    "id": "cb84be46-5ac8-47ac-9dd8-07c3d09b95bf",
+    "title": "Base layer",
+    "brand": "Stoic",
+    "description": "Perfect base layer for all of your adventuring",
+    "colour": "Blue",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#shirts#cb84be46-5ac8-47ac-9dd8-07c3d09b95bf"
+  },
+  {
+    "id": "79c68b54-537b-480c-bead-38e1fb704a53",
+    "title": "Merino Long Sleve",
+    "brand": "Stoic",
+    "description": "Long sleve marino wool shirt",
+    "colour": "Purple",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      null,
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#shirts#79c68b54-537b-480c-bead-38e1fb704a53"
+  },
+  {
+    "id": "66e8877b-7b49-438b-8c78-dbf7a242b798",
+    "title": "Renegade GTX mid",
+    "brand": "LOWA",
+    "description": "Goretex Mid shoe",
+    "colour": "Grey/Green",
+    "sizesAvailable": [
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" },
+      { "sizeCode": 42, "displayValue": "42" },
+      { "sizeCode": 43, "displayValue": "43" },
+      { "sizeCode": 44, "displayValue": "44" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#shoes#66e8877b-7b49-438b-8c78-dbf7a242b798"
+  },
+  {
+    "id": "cd9a6cef-b7c0-487d-888c-0169637bbb4e",
+    "title": "Predict Hike GTX mid",
+    "brand": "Solomon",
+    "description": "Goretex Mid shoe",
+    "colour": "Light Blue",
+    "sizesAvailable": [
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" },
+      { "sizeCode": 42, "displayValue": "42" },
+      { "sizeCode": 43, "displayValue": "43" },
+      { "sizeCode": 44, "displayValue": "44" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#shoes#cd9a6cef-b7c0-487d-888c-0169637bbb4e"
+  },
+  {
+    "id": "84a8c177-8904-484e-b094-3561ba4c2501",
+    "title": "Olympus 5 Hike",
+    "brand": "Altra",
+    "description": "Goretex Mid boot",
+    "colour": "Orange/Black",
+    "sizesAvailable": [
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" },
+      { "sizeCode": 42, "displayValue": "42" },
+      { "sizeCode": 43, "displayValue": "43" },
+      { "sizeCode": 44, "displayValue": "44" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#shoes#84a8c177-8904-484e-b094-3561ba4c2501"
+  },
+  {
+    "id": "2b4e11eb-458f-4b44-b6be-53ebe7b2c749",
+    "title": "Merino Mesh Leggings",
+    "brand": "Stoic",
+    "description": "Merino wool leggings",
+    "colour": "Black",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#underwear#2b4e11eb-458f-4b44-b6be-53ebe7b2c749"
+  },
+  {
+    "id": "99cc357a-0a0e-4c11-87a6-5dc125609abc",
+    "title": "Merino Undershirt",
+    "brand": "Angel",
+    "description": "Merino wool under shirt",
+    "colour": "White",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#underwear#99cc357a-0a0e-4c11-87a6-5dc125609abc"
+  },
+  {
+    "id": "ac1c53c6-6feb-40a9-b3b9-d8b79bccd063",
+    "title": "185 Wool Sports Bra",
+    "brand": "Ortovox",
+    "description": "Merino wool sports bra",
+    "colour": "Grey / Orange",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "small" },
+      { "sizeCode": 2, "displayValue": "medium" },
+      { "sizeCode": 3, "displayValue": "large" }
+    ],
+    "pk": "clothing",
+    "sk": "womens#underwear#ac1c53c6-6feb-40a9-b3b9-d8b79bccd063"
+  },
+  {
+    "id": "4f2867fc-a73b-430d-92a6-896fd963448b",
+    "title": "Solutions",
+    "brand": "La Sportiva",
+    "description": "No edge shoes",
+    "colour": "Yellow",
+    "sizesAvailable": [
+      { "sizeCode": 38, "displayValue": "38" },
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" }
+    ],
+    "pk": "climbing",
+    "sk": "shoes#velcro#4f2867fc-a73b-430d-92a6-896fd963448b"
+  },
+  {
+    "id": "d261b9ae-53b0-457b-9991-926d2c6bd92f",
+    "title": "Instincts",
+    "brand": "Scarpa",
+    "description": "Downturned porformance shoe",
+    "colour": "Black / Orange",
+    "sizesAvailable": [
+      { "sizeCode": 38, "displayValue": "38" },
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" }
+    ],
+    "pk": "climbing",
+    "sk": "shoes#velcro#d261b9ae-53b0-457b-9991-926d2c6bd92f"
+  },
+  {
+    "id": "972db50e-4954-48ec-8e4e-115b35fad3d0",
+    "title": "Final",
+    "brand": "La Sportiva",
+    "description": "Good all day show",
+    "colour": "Orange",
+    "sizesAvailable": [
+      { "sizeCode": 38, "displayValue": "38" },
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" }
+    ],
+    "pk": "climbing",
+    "sk": "shoes#laceup#972db50e-4954-48ec-8e4e-115b35fad3d0"
+  },
+  {
+    "id": "50a2da43-dc99-41a1-8d9a-2f5ebe750dc7",
+    "title": "Insticts lace up",
+    "brand": "Scarpa",
+    "description": "Lace up instincts",
+    "colour": "Black",
+    "sizesAvailable": [
+      { "sizeCode": 38, "displayValue": "38" },
+      { "sizeCode": 39, "displayValue": "39" },
+      { "sizeCode": 40, "displayValue": "40" },
+      { "sizeCode": 41, "displayValue": "41" }
+    ],
+    "pk": "climbing",
+    "sk": "shoes#laceup#50a2da43-dc99-41a1-8d9a-2f5ebe750dc7"
+  },
+  {
+    "id": "283eb9e4-4a9b-412c-8c71-ffff5c10d12d",
+    "title": "Jampa",
+    "brand": "Beal",
+    "description": "Budget indoor rope",
+    "colour": "Yellow",
+    "sizesAvailable": [
+      { "sizeCode": 30, "displayValue": "30m" },
+      { "sizeCode": 40, "displayValue": "40m" },
+      { "sizeCode": 60, "displayValue": "60m" }
+    ],
+    "pk": "climbing",
+    "sk": "ropes#single#283eb9e4-4a9b-412c-8c71-ffff5c10d12d"
+  },
+  {
+    "id": "f073e329-9a1f-4bfd-8697-7fb10a2abff0",
+    "title": "SE Priti 9.6mm",
+    "brand": "Edlerid",
+    "description": "Great outdoor rope",
+    "colour": "Yellow",
+    "sizesAvailable": [
+      { "sizeCode": 40, "displayValue": "40m" },
+      { "sizeCode": 60, "displayValue": "60m" },
+      { "sizeCode": 80, "displayValue": "80m" }
+    ],
+    "pk": "climbing",
+    "sk": "ropes#single#f073e329-9a1f-4bfd-8697-7fb10a2abff0"
+  },
+  {
+    "id": "2d418a88-4e45-4483-939a-63bf6045d8f2",
+    "title": "Swift Protect Pro Dry 8.9",
+    "brand": "Edelrid",
+    "description": "Great rope for all your trad adventures",
+    "colour": "Green",
+    "sizesAvailable": [
+      { "sizeCode": 30, "displayValue": "30m" },
+      { "sizeCode": 40, "displayValue": "40m" },
+      { "sizeCode": 60, "displayValue": "60m" }
+    ],
+    "pk": "climbing",
+    "sk": "ropes#twin#2d418a88-4e45-4483-939a-63bf6045d8f2"
+  },
+  {
+    "id": "bf0aa6c3-6e05-4c8c-84e4-8783c6cfcae7",
+    "title": "Fanatic Dry 8.4",
+    "brand": "Fixed",
+    "description": "Light weight half rope",
+    "colour": "Yellow",
+    "sizesAvailable": [
+      { "sizeCode": 30, "displayValue": "30m" },
+      { "sizeCode": 40, "displayValue": "40m" },
+      { "sizeCode": 60, "displayValue": "60m" }
+    ],
+    "pk": "climbing",
+    "sk": "ropes#twin#bf0aa6c3-6e05-4c8c-84e4-8783c6cfcae7"
+  },
+  {
+    "id": "3f28c51d-3722-460c-9659-5b27b4ff20aa",
+    "title": "Wall Nuts",
+    "brand": "Black Diamond",
+    "description": "Great nuts for climbing",
+    "colour": "Mixed",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "1" },
+      { "sizeCode": 2, "displayValue": "2" },
+      { "sizeCode": 3, "displayValue": "3" }
+    ],
+    "pk": "climbing",
+    "sk": "tradgear#nuts#3f28c51d-3722-460c-9659-5b27b4ff20aa"
+  },
+  {
+    "id": "5c2abccc-04ba-4cd3-a436-7b8bb369a319",
+    "title": "Wall Nut Set",
+    "brand": "Black Diamond",
+    "description": "Great nuts for climbing",
+    "colour": "Mixed",
+    "sizesAvailable": [
+      { "sizeCode": 1, "displayValue": "half set" },
+      { "sizeCode": 2, "displayValue": "full set" }
+    ],
+    "pk": "climbing",
+    "sk": "tradgear#nuts#5c2abccc-04ba-4cd3-a436-7b8bb369a319"
+  },
+  {
+    "id": "b79ddd3a-a225-4e18-b525-6596c19058cd",
+    "title": "Camalot C4",
+    "brand": "Black Diamond",
+    "description": "Cams for any crack",
+    "colour": "Mixed",
+    "sizesAvailable": [
+      { "sizeCode": 0.5, "displayValue": "0.5" },
+      { "sizeCode": 1, "displayValue": "1" },
+      { "sizeCode": 2, "displayValue": "2" },
+      { "sizeCode": 3, "displayValue": "3" },
+      { "sizeCode": 4, "displayValue": "4" },
+      { "sizeCode": 5, "displayValue": "5" }
+    ],
+    "pk": "climbing",
+    "sk": "tradgear#cams#b79ddd3a-a225-4e18-b525-6596c19058cd"
+  }
+]
