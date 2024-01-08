@@ -1,5 +1,11 @@
 import seedDataGenerator from './generateProductJson';
-import * as AWS from 'aws-sdk';
+import { Converter } from 'aws-sdk/clients/dynamodb';
+import { fromIni } from '@aws-sdk/credential-providers';
+import {
+  BatchWriteItemCommand,
+  BatchWriteItemCommandInput,
+  DynamoDBClient,
+} from '@aws-sdk/client-dynamodb';
 
 const saveToDynamo = async ({ data, tableName }: { data: any[]; tableName: string }) => {
   const env = process.env.environment;
@@ -34,44 +40,44 @@ const batch = async ({
   tableName: string;
   profile: string;
 }) => {
-  AWS.config.credentials = new AWS.SharedIniFileCredentials({
-    profile,
-  });
+  const requestData = data.map((item) => ({
+    PutRequest: {
+      Item: Converter.marshall(item),
+    },
+  }));
+
   const config = {
-    region: 'eu-central-1',
     convertEmptyValues: true,
+    region: 'eu-central-1',
+    credential: fromIni({ profile }),
   };
+  const dynamodbClient = new DynamoDBClient(config);
 
-  const documentClient = new AWS.DynamoDB.DocumentClient(config);
+  let batchNo = 0;
 
-  const formattedRecords = data.map((record) => {
-    return {
-      PutRequest: {
-        Item: record,
+  while (requestData.length > 0) {
+    console.log('requestData.length', requestData.length);
+    batchNo += 1;
+    console.log({ batchNo });
+    const batch = requestData.splice(0, 15);
+
+    const params: BatchWriteItemCommandInput = {
+      RequestItems: {
+        [tableName]: batch as any[],
       },
     };
-  });
 
-  try {
-    while (formattedRecords.length > 0) {
-      const batch = formattedRecords.splice(0, 15);
-
-      const params = {
-        RequestItems: {
-          [tableName]: batch,
-        },
-      };
-
-      await documentClient.batchWrite(params).promise();
-      console.log('batch written');
-      console.log(`remaining items = ${formattedRecords.length}`);
+    try {
+      const batchWriteCommand = new BatchWriteItemCommand(params);
+      await dynamodbClient.send(batchWriteCommand);
+      console.log('batch done');
+    } catch (err) {
+      console.log('error', err);
     }
-
-    console.log('all done');
-  } catch (error) {
-    console.log('error batch writing to AWS');
-    console.log(error);
   }
+
+  console.log('all Done!');
+  return;
 };
 
 const deployToAWS = async () => {

@@ -21,6 +21,7 @@
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {
+    "@aws-sdk/credential-providers": "^3.485.0",
     "@serverless/typescript": "^3.0.0",
     "@types/aws-lambda": "^8.10.71",
     "@types/node": "^16.0.0",
